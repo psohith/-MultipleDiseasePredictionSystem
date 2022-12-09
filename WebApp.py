@@ -6,9 +6,9 @@ from streamlit_option_menu import option_menu
 
 
 # loading models
-DibetiesModel = pickle.load(open("C:/Users/BALAJI/Desktop/sohith/Multiple_Disease_Pediction_WebApp/DiabetesModel.sav",'rb'))
-HeartModel =  pickle.load(open("C:/Users/BALAJI/Desktop/sohith/Multiple_Disease_Pediction_WebApp/HeartModel.sav",'rb'))
-ParkinsonsModel =  pickle.load(open("C:/Users/BALAJI/Desktop/sohith/Multiple_Disease_Pediction_WebApp/ParkinsonsModel.sav",'rb'))
+DibetiesModel = pickle.load(open("DiabetesModel.sav",'rb'))
+HeartModel =  pickle.load(open("HeartModel.sav",'rb'))
+ParkinsonsModel =  pickle.load(open("ParkinsonsModel.sav",'rb'))
 
 #creating side menu 
 with st.sidebar :
